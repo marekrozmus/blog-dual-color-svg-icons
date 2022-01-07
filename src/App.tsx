@@ -10,6 +10,7 @@ import {
   FaCaretRight,
   FaCaretUp,
 } from 'react-icons/fa';
+import { MdClose } from 'react-icons/md';
 
 import './App.css';
 
@@ -53,6 +54,10 @@ function App() {
           <IconStack>
             <FaCircle color="yellow" size={24} />
             <FaRadiation color="black" size={20} />
+          </IconStack>
+          <IconStack>
+            <FaCircle color="white" size={24} />
+            <MdClose color="red" size={20} />
           </IconStack>
         </Row>
       </header>
